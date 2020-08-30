@@ -1,0 +1,47 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+	},
+	
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loki40316/STOCK.git"
+  },
+  "engines": {
+    "node": "10",
+    "npm": "6.9.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loki40316/STOCK/issues"
+  },
+  "homepage": "https://github.com/loki40316/STOCK#readme",
+  "dependencies": {
+    "ajv": "6.12.4",
+    "axios": "0.20.0",
+    "cheerio": "1.0.0-rc.3",
+    "firebase": "7.19.1",
+    "firebase-admin": "9.1.1",
+    "firebase-functions": "3.11.0",
+    "moment": "2.27.0",
+    "moment-range": "4.0.2",
+    "moment-timezone": "0.5.31"
+  },
+  "devDependencies": {
+    "eslint": "7.7.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "pre-commit": "1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
